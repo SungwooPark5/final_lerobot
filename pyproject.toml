@@ -1,9 +1,0 @@
-[project]
-name = "final-lerobot"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "lerobot[aloha,mujoco]>=0.4.0",
-]
