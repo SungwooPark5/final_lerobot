@@ -1,0 +1,1 @@
+uv pip freeze | grep -v "pip @" | grep -v "setuptools" | grep -v "wheel" > requirements.txt
