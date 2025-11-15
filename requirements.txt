@@ -42,7 +42,7 @@ eigenpy==3.10.3
 einops==0.8.1
 eiquadprog==1.2.9
 etils==1.13.0
-evdev==1.9.2
+evdev @ file:///home/conda/feedstock_root/build_artifacts/evdev_1756309678770/work
 exceptiongroup==1.3.0
 executing==2.2.1
 farama-notifications==0.0.4

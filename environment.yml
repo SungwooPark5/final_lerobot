@@ -1,11 +1,14 @@
 name: lerobot
 channels:
-  - defaults
+  - conda-forge
 dependencies:
-  - python=3.10
-  - ffmpeg
   - uv
+  - ffmpeg
   - cmake
-  - cxx-compiler
+  - python=3.10
   - egl-probe
-prefix: /home/swpark/miniconda3/envs/lerobot
+  - make
+  - evdev
+  - libegl
+  - xorg-libx11
+prefix: /home1/ssl7/miniforge3/envs/lerobot
