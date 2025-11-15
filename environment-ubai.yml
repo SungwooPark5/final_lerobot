@@ -1,0 +1,14 @@
+name: lerobot
+channels:
+  - conda-forge
+dependencies:
+  - uv
+  - ffmpeg
+  - cmake
+  - python=3.10
+  - egl-probe
+  - make
+  - evdev
+  - libegl
+  - xorg-libx11
+prefix: /home1/ssl7/miniforge3/envs/lerobot

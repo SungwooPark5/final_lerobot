@@ -1,1 +1,1 @@
-uv pip freeze -p /home1/ssl7/miniforge3/envs/lerobot/bin/python | grep -v "pip @" | grep -v "setuptools" | grep -v "wheel" | grep -v "egl-probe @"> requirements.txt
+pip freeze | grep -v "pip @" | grep -v "setuptools" | grep -v "wheel" | grep -v "egl-probe @"> requirements.txt
